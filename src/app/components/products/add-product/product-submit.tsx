@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import useProductSubmit from "@/hooks/useProductSubmit";
+import useAddProductForm from "@/hooks/useAddProductForm";
 import DescriptionTextarea from "./description-textarea";
 import OfferDatePicker from "./offer-date-picker";
 import ProductTypeBrand from "./product-type-brand";
@@ -34,7 +34,7 @@ const ProductSubmit = () => {
     isSubmitted,
     additionalInformation,
     imageURLs,
-  } = useProductSubmit();
+  } = useAddProductForm();
 
   console.log('additionalInformation--->',additionalInformation,'imageURLs--->',imageURLs)
 

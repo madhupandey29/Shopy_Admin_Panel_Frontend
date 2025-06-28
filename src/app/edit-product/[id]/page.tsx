@@ -1,6 +1,6 @@
 import Wrapper from "@/layout/wrapper";
 import Breadcrumb from "@/app/components/breadcrumb/breadcrumb";
-import EditProductSubmit from "@/app/components/products/edit-product/edit-product-submit";
+// import EditProductSubmit from "@/app/components/products/edit-product/edit-product-submit";
 
 const EditProduct = ({ params }: { params: { id: string } }) => {
   return (
